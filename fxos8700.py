@@ -19,7 +19,6 @@ class FXOS8700:
         # Make sure we have the correct chip ID
         ok = self._read_register(_REGISTER_WHO_AM_I, 1)[0] == 0xC7
         if not ok:
-            print(self._buffer)
             raise ValueError("Unable to find FXOS8700 at i2c address 0x1F")
 
         # Set to standby mode (required to make changes to this register)
@@ -51,7 +50,7 @@ class FXOS8700:
         self._buffer[1] = value & 0xFF
         with self._i2c as i2c:
             i2c.write(self._buffer, start=0, end=2)
-            
+
     @property
     def acceleration(self):
         self._read_register(_REGISTER_STATUS, 13)
