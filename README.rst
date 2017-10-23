@@ -2,9 +2,6 @@
 CircuitPython driver for the Adafruit FSOX8700 Accelerometer/Magnetometer Breakout
 ==================================================================================
 
-Introduction
-------------
-
 .. image:: https://readthedocs.org/projects/circuitpython-FXOS8700/badge/?version=latest
     :target: https://circuitpython.readthedocs.io/projects/FXOS8700/en/latest/
     :alt: Documentation Status
@@ -13,11 +10,14 @@ Introduction
     :target: https://discord.gg/nBQh6qu
     :alt: Discord
 
+Introduction
+------------
+
 CircuitPython module for the FSOX8700 Accelerometer/Magnetometer.
-The chip is available on a nice `breakout board from Adafruit <https://www.adafruit.com/product/3463>`_.
-See the guide at: `NXP Precision 9DoF Breakout <https://learn.adafruit.com/nxp-precision-9dof-breakout>`_.
-Technical documentation on FSOX8700 chip is available
-`online from NXP <https://www.nxp.com/files-static/sensors/doc/data_sheet/FXOS8700CQ.pdf>`_.
+Technical documentation on FSOX8700 chip is available online from
+`NXP <https://www.nxp.com/files-static/sensors/doc/data_sheet/FXOS8700CQ.pdf>`_.
+The chip is available on a nice breakout `board from Adafruit <https://www.adafruit.com/product/3463>`_,
+see the guide at `NXP Precision 9DoF Breakout <https://learn.adafruit.com/nxp-precision-9dof-breakout>`_.
 
 Dependencies
 ------------
