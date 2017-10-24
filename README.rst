@@ -1,5 +1,5 @@
 ==================================================================================
-CircuitPython driver for the Adafruit FSOX8700 Accelerometer/Magnetometer Breakout
+CircuitPython driver for the Adafruit FXOS8700 Accelerometer/Magnetometer Breakout
 ==================================================================================
 
 .. image:: https://readthedocs.org/projects/circuitpython-FXOS8700/badge/?version=latest
@@ -13,8 +13,8 @@ CircuitPython driver for the Adafruit FSOX8700 Accelerometer/Magnetometer Breako
 Introduction
 ------------
 
-CircuitPython module for the FSOX8700 Accelerometer/Magnetometer.
-Technical documentation on FSOX8700 chip is available online from
+CircuitPython module for the FXOS8700 Accelerometer/Magnetometer.
+Technical documentation on FXOS8700 chip is available online from
 `NXP <https://www.nxp.com/files-static/sensors/doc/data_sheet/FXOS8700CQ.pdf>`_.
 The chip is available on a nice breakout `board from Adafruit <https://www.adafruit.com/product/3463>`_,
 see the guide at `NXP Precision 9DoF Breakout <https://learn.adafruit.com/nxp-precision-9dof-breakout>`_.
@@ -44,7 +44,7 @@ itself.
   import fxos8700
 
 Next, initialize the I2C bus in a ``with`` statement so it always gets shut down ok.
-Then, instantiate FSOX8700 class:
+Then, instantiate FXOS8700 class:
 
 .. code-block:: python
 

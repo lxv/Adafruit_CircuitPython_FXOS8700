@@ -139,6 +139,6 @@ texinfo_documents = [
     (master_doc, 'CircuitPythonFXOS8700Library',
      u'CircuitPython FXOS8700 Library Documentation',
      author, 'CircuitPythonFXOS8700Library',
-     u'CircuitPython driver for the Adafruit FSOX8700 Accelerometer/Magnetometer Breakout',
+     u'CircuitPython driver for the Adafruit FXOS8700 Accelerometer/Magnetometer Breakout',
      'Miscellaneous'),
 ]
